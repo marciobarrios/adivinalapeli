@@ -18,6 +18,7 @@ export interface Movie {
   year: number;
   runtime: number | null;
   genres: string[];
+  posterPath: string | null;
   emoji: string;
   themes: ThemeId[];
   tmdbUrl: string;
@@ -25,7 +26,7 @@ export interface Movie {
 }
 
 export interface MovieCatalog {
-  version: 1;
+  version: 2;
   generatedAt: string | null;
   refreshAfter: string | null;
   source: "tmdb" | "fallback" | "mixed";

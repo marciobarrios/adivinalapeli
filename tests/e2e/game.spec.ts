@@ -26,6 +26,7 @@ test("configura y completa una partida por equipos", async ({ page }) => {
   ).toBeVisible();
   await page.getByRole("button", { name: "Estoy listo" }).click();
   await expect(page.getByText("Haz esta película")).toBeVisible();
+  await expect(page.getByTestId("movie-poster")).toBeVisible();
   await page.getByRole("button", { name: "¡Acertada!" }).click();
   await page.getByRole("button", { name: "Terminar turno antes" }).click();
 
@@ -74,6 +75,54 @@ test("vuelve a cargar sin conexión después de la primera visita", async ({ con
   await expect(
     page.getByRole("heading", { name: "Pasa el móvil a Equipo Claqueta" }),
   ).toBeVisible();
+  await page.getByRole("button", { name: "Estoy listo" }).click();
+
+  const offlinePoster = page.getByTestId("movie-poster");
+  await expect(offlinePoster).toBeVisible();
+  await expect
+    .poll(() =>
+      offlinePoster.evaluate((image: HTMLImageElement) => image.complete && image.naturalWidth > 0),
+    )
+    .toBe(true);
 
   await context.setOffline(false);
+});
+
+test.describe("estados de portada", () => {
+  test.use({ serviceWorkers: "block" });
+
+  test("no muestra el emoji mientras la portada está cargando", async ({ page }) => {
+    let releasePoster: () => void = () => {};
+    const posterGate = new Promise<void>((resolve) => {
+      releasePoster = resolve;
+    });
+
+    await page.route("**/posters/**", async (route) => {
+      await posterGate;
+      await route.continue();
+    });
+    await page.goto("/");
+    await page.getByRole("button", { name: "Empezar partida" }).click();
+    await page.getByRole("button", { name: "Estoy listo" }).click();
+
+    await expect(page.getByTestId("movie-poster-loading")).toBeVisible();
+    await expect(page.getByTestId("movie-emoji")).toHaveCount(0);
+    await expect(page.getByText("Pista emoji", { exact: true })).toHaveCount(0);
+
+    releasePoster();
+
+    await expect(page.getByTestId("movie-poster-loading")).toHaveCount(0);
+    await expect(page.getByTestId("movie-poster")).toHaveClass(/opacity-100/);
+  });
+
+  test("muestra la pista emoji cuando una portada no puede cargarse", async ({ page }) => {
+    await page.route("**/posters/**", (route) => route.abort());
+    await page.goto("/");
+    await page.getByRole("button", { name: "Empezar partida" }).click();
+    await page.getByRole("button", { name: "Estoy listo" }).click();
+
+    await expect(page.getByText("Pista emoji", { exact: true })).toBeVisible();
+    await expect(page.getByTestId("movie-emoji")).toBeVisible();
+    await expect(page.getByTestId("movie-poster")).toHaveCount(0);
+  });
 });

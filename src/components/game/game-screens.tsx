@@ -3,6 +3,7 @@
 import {
   ArrowRight,
   Check,
+  Clapperboard,
   Clock3,
   Eye,
   FastForward,
@@ -15,6 +16,7 @@ import {
   Trophy,
   X,
 } from "lucide-react";
+import Image from "next/image";
 import { useEffect, useState } from "react";
 
 import { Badge } from "@/components/ui/badge";
@@ -130,6 +132,90 @@ function secondsUntil(timestamp: number | null) {
   return Math.max(0, Math.ceil((timestamp - Date.now()) / 1_000));
 }
 
+function MoviePrompt({ movie }: { movie: Movie }) {
+  const hasPoster = Boolean(movie.posterPath);
+  const [posterState, setPosterState] = useState<"loading" | "loaded" | "failed">(
+    hasPoster ? "loading" : "failed",
+  );
+  const showPoster = hasPoster && posterState !== "failed";
+  const showPosterLoading = hasPoster && posterState === "loading";
+  const showEmoji = !hasPoster || posterState === "failed";
+
+  return (
+    <div
+      className={cn(
+        "grid w-full max-w-2xl items-center gap-6",
+        showPoster && "sm:grid-cols-[12rem_minmax(0,1fr)] sm:text-left",
+      )}
+    >
+      <div
+        className="relative mx-auto grid aspect-[2/3] w-36 place-items-center overflow-hidden rounded-2xl border-2 border-foreground bg-secondary/35 shadow-[4px_4px_0_var(--foreground)] sm:w-48"
+        aria-busy={showPosterLoading}
+      >
+        {showPosterLoading ? (
+          <div
+            className="absolute inset-0 grid place-items-center bg-muted text-muted-foreground"
+            data-testid="movie-poster-loading"
+          >
+            <Clapperboard className="size-8 motion-safe:animate-pulse" aria-hidden="true" />
+            <span className="sr-only">Cargando portada</span>
+          </div>
+        ) : null}
+        {showEmoji ? (
+          <>
+            <p
+              className="px-3 text-4xl leading-tight tracking-[0.12em] sm:text-5xl"
+              aria-hidden="true"
+              data-testid="movie-emoji"
+            >
+              {movie.emoji}
+            </p>
+            <span className="sr-only">Pista emoji: {movie.emoji}</span>
+          </>
+        ) : null}
+        {showPoster && movie.posterPath ? (
+          <Image
+            src={movie.posterPath}
+            alt=""
+            data-testid="movie-poster"
+            fill
+            sizes="(max-width: 639px) 9rem, 12rem"
+            className={cn(
+              "object-cover transition-opacity duration-200",
+              posterState === "loaded" ? "opacity-100" : "opacity-0",
+            )}
+            loading="eager"
+            onLoad={() => setPosterState("loaded")}
+            onError={() => setPosterState("failed")}
+          />
+        ) : null}
+      </div>
+
+      <div>
+        <h1 className="font-heading text-4xl leading-[1.04] font-black tracking-[-0.04em] text-balance sm:text-6xl">
+          {movie.title}
+        </h1>
+        <div
+          className={cn(
+            "mt-5 flex flex-wrap justify-center gap-2",
+            showPoster && "sm:justify-start",
+          )}
+        >
+          <Badge variant="outline" className="bg-background">
+            {movie.year}
+          </Badge>
+          {movie.genres.slice(0, 2).map((genre) => (
+            <Badge key={genre} variant="outline" className="bg-background">
+              {genre}
+            </Badge>
+          ))}
+          {showEmoji ? <Badge variant="secondary">Pista emoji</Badge> : null}
+        </div>
+      </div>
+    </div>
+  );
+}
+
 export function PlayingScreen({
   game,
   movie,
@@ -205,28 +291,7 @@ export function PlayingScreen({
           Haz esta película
         </span>
         <CardContent className="grid min-h-[23rem] place-items-center px-6 py-12 text-center sm:min-h-[28rem] sm:px-12">
-          <div className="max-w-2xl">
-            <p className="text-5xl leading-none tracking-[0.2em] sm:text-7xl" aria-hidden="true">
-              {movie.emoji}
-            </p>
-            <span className="sr-only">Pista emoji: {movie.emoji}</span>
-            <h1 className="mt-8 font-heading text-4xl leading-[1.04] font-black tracking-[-0.04em] text-balance sm:text-6xl">
-              {movie.title}
-            </h1>
-            <div className="mt-5 flex flex-wrap justify-center gap-2">
-              <Badge variant="outline" className="bg-background">
-                {movie.year}
-              </Badge>
-              {movie.genres.slice(0, 2).map((genre) => (
-                <Badge key={genre} variant="outline" className="bg-background">
-                  {genre}
-                </Badge>
-              ))}
-              {movie.source === "fallback" ? (
-                <Badge variant="secondary">Pista offline</Badge>
-              ) : null}
-            </div>
-          </div>
+          <MoviePrompt key={movie.id} movie={movie} />
         </CardContent>
       </Card>
 
