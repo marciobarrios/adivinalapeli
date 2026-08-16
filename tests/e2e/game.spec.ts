@@ -88,8 +88,32 @@ test("vuelve a cargar sin conexión después de la primera visita", async ({ con
   await context.setOffline(false);
 });
 
-test.describe("fallback de portada", () => {
+test.describe("estados de portada", () => {
   test.use({ serviceWorkers: "block" });
+
+  test("no muestra el emoji mientras la portada está cargando", async ({ page }) => {
+    let releasePoster: () => void = () => {};
+    const posterGate = new Promise<void>((resolve) => {
+      releasePoster = resolve;
+    });
+
+    await page.route("**/posters/**", async (route) => {
+      await posterGate;
+      await route.continue();
+    });
+    await page.goto("/");
+    await page.getByRole("button", { name: "Empezar partida" }).click();
+    await page.getByRole("button", { name: "Estoy listo" }).click();
+
+    await expect(page.getByTestId("movie-poster-loading")).toBeVisible();
+    await expect(page.getByTestId("movie-emoji")).toHaveCount(0);
+    await expect(page.getByText("Pista emoji", { exact: true })).toHaveCount(0);
+
+    releasePoster();
+
+    await expect(page.getByTestId("movie-poster-loading")).toHaveCount(0);
+    await expect(page.getByTestId("movie-poster")).toHaveClass(/opacity-100/);
+  });
 
   test("muestra la pista emoji cuando una portada no puede cargarse", async ({ page }) => {
     await page.route("**/posters/**", (route) => route.abort());
@@ -98,6 +122,7 @@ test.describe("fallback de portada", () => {
     await page.getByRole("button", { name: "Estoy listo" }).click();
 
     await expect(page.getByText("Pista emoji", { exact: true })).toBeVisible();
+    await expect(page.getByTestId("movie-emoji")).toBeVisible();
     await expect(page.getByTestId("movie-poster")).toHaveCount(0);
   });
 });

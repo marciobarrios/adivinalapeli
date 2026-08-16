@@ -3,6 +3,7 @@
 import {
   ArrowRight,
   Check,
+  Clapperboard,
   Clock3,
   Eye,
   FastForward,
@@ -132,8 +133,13 @@ function secondsUntil(timestamp: number | null) {
 }
 
 function MoviePrompt({ movie }: { movie: Movie }) {
-  const [posterFailed, setPosterFailed] = useState(false);
-  const showPoster = Boolean(movie.posterPath) && !posterFailed;
+  const hasPoster = Boolean(movie.posterPath);
+  const [posterState, setPosterState] = useState<"loading" | "loaded" | "failed">(
+    hasPoster ? "loading" : "failed",
+  );
+  const showPoster = hasPoster && posterState !== "failed";
+  const showPosterLoading = hasPoster && posterState === "loading";
+  const showEmoji = !hasPoster || posterState === "failed";
 
   return (
     <div
@@ -142,11 +148,31 @@ function MoviePrompt({ movie }: { movie: Movie }) {
         showPoster && "sm:grid-cols-[12rem_minmax(0,1fr)] sm:text-left",
       )}
     >
-      <div className="relative mx-auto grid aspect-[2/3] w-36 place-items-center overflow-hidden rounded-2xl border-2 border-foreground bg-secondary/35 shadow-[4px_4px_0_var(--foreground)] sm:w-48">
-        <p className="px-3 text-4xl leading-tight tracking-[0.12em] sm:text-5xl" aria-hidden="true">
-          {movie.emoji}
-        </p>
-        {!showPoster ? <span className="sr-only">Pista emoji: {movie.emoji}</span> : null}
+      <div
+        className="relative mx-auto grid aspect-[2/3] w-36 place-items-center overflow-hidden rounded-2xl border-2 border-foreground bg-secondary/35 shadow-[4px_4px_0_var(--foreground)] sm:w-48"
+        aria-busy={showPosterLoading}
+      >
+        {showPosterLoading ? (
+          <div
+            className="absolute inset-0 grid place-items-center bg-muted text-muted-foreground"
+            data-testid="movie-poster-loading"
+          >
+            <Clapperboard className="size-8 motion-safe:animate-pulse" aria-hidden="true" />
+            <span className="sr-only">Cargando portada</span>
+          </div>
+        ) : null}
+        {showEmoji ? (
+          <>
+            <p
+              className="px-3 text-4xl leading-tight tracking-[0.12em] sm:text-5xl"
+              aria-hidden="true"
+              data-testid="movie-emoji"
+            >
+              {movie.emoji}
+            </p>
+            <span className="sr-only">Pista emoji: {movie.emoji}</span>
+          </>
+        ) : null}
         {showPoster && movie.posterPath ? (
           <Image
             src={movie.posterPath}
@@ -154,9 +180,13 @@ function MoviePrompt({ movie }: { movie: Movie }) {
             data-testid="movie-poster"
             fill
             sizes="(max-width: 639px) 9rem, 12rem"
-            className="object-cover"
+            className={cn(
+              "object-cover transition-opacity duration-200",
+              posterState === "loaded" ? "opacity-100" : "opacity-0",
+            )}
             loading="eager"
-            onError={() => setPosterFailed(true)}
+            onLoad={() => setPosterState("loaded")}
+            onError={() => setPosterState("failed")}
           />
         ) : null}
       </div>
@@ -179,7 +209,7 @@ function MoviePrompt({ movie }: { movie: Movie }) {
               {genre}
             </Badge>
           ))}
-          {!showPoster ? <Badge variant="secondary">Pista emoji</Badge> : null}
+          {showEmoji ? <Badge variant="secondary">Pista emoji</Badge> : null}
         </div>
       </div>
     </div>
