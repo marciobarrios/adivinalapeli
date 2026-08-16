@@ -7,7 +7,8 @@ export type ThemeId =
   | "2000s"
   | "2010s"
   | "2020s"
-  | "animation";
+  | "animation"
+  | "comedy";
 
 export type MovieSource = "tmdb" | "fallback";
 

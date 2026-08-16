@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generatedAt": "2026-08-16T22:34:51.806Z",
-  "refreshAfter": "2027-01-13T22:34:51.806Z",
+  "generatedAt": "2026-08-16T23:37:08.680Z",
+  "refreshAfter": "2027-01-13T23:37:08.680Z",
   "source": "tmdb",
   "movies": [
     {
@@ -20,7 +20,8 @@
       "themes": [
         "mix",
         "80s",
-        "family"
+        "family",
+        "comedy"
       ],
       "tmdbUrl": "https://www.themoviedb.org/movie/105",
       "source": "tmdb"
@@ -62,7 +63,8 @@
       "themes": [
         "mix",
         "80s",
-        "family"
+        "family",
+        "comedy"
       ],
       "tmdbUrl": "https://www.themoviedb.org/movie/9340",
       "source": "tmdb"
@@ -82,7 +84,8 @@
       "themes": [
         "mix",
         "80s",
-        "family"
+        "family",
+        "comedy"
       ],
       "tmdbUrl": "https://www.themoviedb.org/movie/620",
       "source": "tmdb"
@@ -143,7 +146,8 @@
       "emoji": "🐾 🌙 💦",
       "themes": [
         "mix",
-        "80s"
+        "80s",
+        "comedy"
       ],
       "tmdbUrl": "https://www.themoviedb.org/movie/927",
       "source": "tmdb"
@@ -162,7 +166,8 @@
       "emoji": "👻 🪲 🏠",
       "themes": [
         "mix",
-        "80s"
+        "80s",
+        "comedy"
       ],
       "tmdbUrl": "https://www.themoviedb.org/movie/4011",
       "source": "tmdb"
@@ -205,9 +210,57 @@
       "themes": [
         "mix",
         "80s",
-        "family"
+        "family",
+        "comedy"
       ],
       "tmdbUrl": "https://www.themoviedb.org/movie/2280",
+      "source": "tmdb"
+    },
+    {
+      "id": 10144,
+      "title": "La sirenita",
+      "originalTitle": "The Little Mermaid",
+      "year": 1989,
+      "runtime": 83,
+      "genres": [
+        "Animación",
+        "Familia",
+        "Fantasía"
+      ],
+      "posterPath": "/posters/10144.jpg",
+      "emoji": "🧜‍♀️ 🐠 🔱",
+      "themes": [
+        "mix",
+        "80s",
+        "family",
+        "disney",
+        "animation"
+      ],
+      "tmdbUrl": "https://www.themoviedb.org/movie/10144",
+      "source": "tmdb"
+    },
+    {
+      "id": 9354,
+      "title": "Cariño, he encogido a los niños",
+      "originalTitle": "Honey, I Shrunk the Kids",
+      "year": 1989,
+      "runtime": 100,
+      "genres": [
+        "Aventura",
+        "Comedia",
+        "Familia",
+        "Ciencia ficción"
+      ],
+      "posterPath": "/posters/9354.jpg",
+      "emoji": "🧪 👨‍👧‍👦 🐜",
+      "themes": [
+        "mix",
+        "80s",
+        "family",
+        "disney",
+        "comedy"
+      ],
+      "tmdbUrl": "https://www.themoviedb.org/movie/9354",
       "source": "tmdb"
     },
     {
@@ -225,7 +278,8 @@
       "themes": [
         "mix",
         "90s",
-        "family"
+        "family",
+        "comedy"
       ],
       "tmdbUrl": "https://www.themoviedb.org/movie/771",
       "source": "tmdb"
@@ -292,7 +346,8 @@
         "90s",
         "family",
         "disney",
-        "animation"
+        "animation",
+        "comedy"
       ],
       "tmdbUrl": "https://www.themoviedb.org/movie/862",
       "source": "tmdb"
@@ -353,7 +408,8 @@
       "themes": [
         "mix",
         "90s",
-        "family"
+        "family",
+        "comedy"
       ],
       "tmdbUrl": "https://www.themoviedb.org/movie/10830",
       "source": "tmdb"
@@ -374,7 +430,8 @@
       "emoji": "🕶️ 👽 ⚡",
       "themes": [
         "mix",
-        "90s"
+        "90s",
+        "comedy"
       ],
       "tmdbUrl": "https://www.themoviedb.org/movie/607",
       "source": "tmdb"
@@ -393,7 +450,8 @@
       "emoji": "📺 🌎 ⛵",
       "themes": [
         "mix",
-        "90s"
+        "90s",
+        "comedy"
       ],
       "tmdbUrl": "https://www.themoviedb.org/movie/37165",
       "source": "tmdb"
@@ -414,7 +472,8 @@
       "emoji": "🎭 🟢 💃",
       "themes": [
         "mix",
-        "90s"
+        "90s",
+        "comedy"
       ],
       "tmdbUrl": "https://www.themoviedb.org/movie/854",
       "source": "tmdb"
@@ -435,7 +494,8 @@
       "themes": [
         "mix",
         "90s",
-        "family"
+        "family",
+        "comedy"
       ],
       "tmdbUrl": "https://www.themoviedb.org/movie/788",
       "source": "tmdb"
@@ -458,6 +518,141 @@
         "90s"
       ],
       "tmdbUrl": "https://www.themoviedb.org/movie/162",
+      "source": "tmdb"
+    },
+    {
+      "id": 10020,
+      "title": "La bella y la bestia",
+      "originalTitle": "Beauty and the Beast",
+      "year": 1991,
+      "runtime": 84,
+      "genres": [
+        "Romance",
+        "Familia",
+        "Animación",
+        "Fantasía"
+      ],
+      "posterPath": "/posters/10020.jpg",
+      "emoji": "🌹 👸 🏰",
+      "themes": [
+        "mix",
+        "90s",
+        "family",
+        "disney",
+        "animation"
+      ],
+      "tmdbUrl": "https://www.themoviedb.org/movie/10020",
+      "source": "tmdb"
+    },
+    {
+      "id": 812,
+      "title": "Aladdin",
+      "originalTitle": "Aladdin",
+      "year": 1992,
+      "runtime": 87,
+      "genres": [
+        "Animación",
+        "Familia",
+        "Aventura",
+        "Fantasía",
+        "Romance"
+      ],
+      "posterPath": "/posters/812.jpg",
+      "emoji": "🧞‍♂️ 🪔 🕌",
+      "themes": [
+        "mix",
+        "90s",
+        "family",
+        "disney",
+        "animation"
+      ],
+      "tmdbUrl": "https://www.themoviedb.org/movie/812",
+      "source": "tmdb"
+    },
+    {
+      "id": 137,
+      "title": "Atrapado en el tiempo",
+      "originalTitle": "Groundhog Day",
+      "year": 1993,
+      "runtime": 101,
+      "genres": [
+        "Romance",
+        "Fantasía",
+        "Comedia"
+      ],
+      "posterPath": "/posters/137.jpg",
+      "emoji": "🐿️ ⏰ 🔁",
+      "themes": [
+        "mix",
+        "90s",
+        "comedy"
+      ],
+      "tmdbUrl": "https://www.themoviedb.org/movie/137",
+      "source": "tmdb"
+    },
+    {
+      "id": 8467,
+      "title": "Dos tontos muy tontos",
+      "originalTitle": "Dumb and Dumber",
+      "year": 1994,
+      "runtime": 106,
+      "genres": [
+        "Comedia"
+      ],
+      "posterPath": "/posters/8467.jpg",
+      "emoji": "🐶 🚐 🎩",
+      "themes": [
+        "mix",
+        "90s",
+        "comedy"
+      ],
+      "tmdbUrl": "https://www.themoviedb.org/movie/8467",
+      "source": "tmdb"
+    },
+    {
+      "id": 9820,
+      "title": "Tú a Londres y yo a California",
+      "originalTitle": "The Parent Trap",
+      "year": 1998,
+      "runtime": 128,
+      "genres": [
+        "Comedia",
+        "Familia",
+        "Romance"
+      ],
+      "posterPath": "/posters/9820.jpg",
+      "emoji": "👯‍♀️ 🏕️ 💍",
+      "themes": [
+        "mix",
+        "90s",
+        "family",
+        "disney",
+        "comedy"
+      ],
+      "tmdbUrl": "https://www.themoviedb.org/movie/9820",
+      "source": "tmdb"
+    },
+    {
+      "id": 10674,
+      "title": "Mulán",
+      "originalTitle": "Mulan",
+      "year": 1998,
+      "runtime": 88,
+      "genres": [
+        "Animación",
+        "Familia",
+        "Aventura"
+      ],
+      "posterPath": "/posters/10674.jpg",
+      "emoji": "🐉 ⚔️ 🌸",
+      "themes": [
+        "mix",
+        "90s",
+        "family",
+        "disney",
+        "animation"
+      ],
+      "tmdbUrl": "https://www.themoviedb.org/movie/10674",
       "source": "tmdb"
     },
     {
@@ -499,7 +694,8 @@
         "mix",
         "2000s",
         "family",
-        "animation"
+        "animation",
+        "comedy"
       ],
       "tmdbUrl": "https://www.themoviedb.org/movie/808",
       "source": "tmdb"
@@ -590,7 +786,8 @@
       "themes": [
         "mix",
         "2000s",
-        "family"
+        "family",
+        "comedy"
       ],
       "tmdbUrl": "https://www.themoviedb.org/movie/118",
       "source": "tmdb"
@@ -614,7 +811,8 @@
         "2000s",
         "family",
         "disney",
-        "animation"
+        "animation",
+        "comedy"
       ],
       "tmdbUrl": "https://www.themoviedb.org/movie/2062",
       "source": "tmdb"
@@ -661,7 +859,8 @@
         "2000s",
         "family",
         "disney",
-        "animation"
+        "animation",
+        "comedy"
       ],
       "tmdbUrl": "https://www.themoviedb.org/movie/14160",
       "source": "tmdb"
@@ -685,7 +884,8 @@
         "2000s",
         "family",
         "disney",
-        "animation"
+        "animation",
+        "comedy"
       ],
       "tmdbUrl": "https://www.themoviedb.org/movie/585",
       "source": "tmdb"
@@ -708,7 +908,8 @@
         "mix",
         "2000s",
         "family",
-        "animation"
+        "animation",
+        "comedy"
       ],
       "tmdbUrl": "https://www.themoviedb.org/movie/425",
       "source": "tmdb"
@@ -729,9 +930,104 @@
       "themes": [
         "mix",
         "2000s",
-        "family"
+        "family",
+        "comedy"
       ],
       "tmdbUrl": "https://www.themoviedb.org/movie/1593",
+      "source": "tmdb"
+    },
+    {
+      "id": 11688,
+      "title": "El emperador y sus locuras",
+      "originalTitle": "The Emperor's New Groove",
+      "year": 2000,
+      "runtime": 78,
+      "genres": [
+        "Aventura",
+        "Animación",
+        "Comedia",
+        "Familia",
+        "Fantasía"
+      ],
+      "posterPath": "/posters/11688.jpg",
+      "emoji": "🦙 👑 🧪",
+      "themes": [
+        "mix",
+        "2000s",
+        "family",
+        "disney",
+        "animation",
+        "comedy"
+      ],
+      "tmdbUrl": "https://www.themoviedb.org/movie/11688",
+      "source": "tmdb"
+    },
+    {
+      "id": 11544,
+      "title": "Lilo & Stitch",
+      "originalTitle": "Lilo & Stitch",
+      "year": 2002,
+      "runtime": 85,
+      "genres": [
+        "Animación",
+        "Familia",
+        "Comedia",
+        "Ciencia ficción"
+      ],
+      "posterPath": "/posters/11544.jpg",
+      "emoji": "👽 🌺 🏄‍♀️",
+      "themes": [
+        "mix",
+        "2000s",
+        "family",
+        "disney",
+        "animation",
+        "comedy"
+      ],
+      "tmdbUrl": "https://www.themoviedb.org/movie/11544",
+      "source": "tmdb"
+    },
+    {
+      "id": 9502,
+      "title": "Kung Fu Panda",
+      "originalTitle": "Kung Fu Panda",
+      "year": 2008,
+      "runtime": 95,
+      "genres": [
+        "Acción",
+        "Animación",
+        "Comedia",
+        "Familia"
+      ],
+      "posterPath": "/posters/9502.jpg",
+      "emoji": "🐼 🥋 🍜",
+      "themes": [
+        "mix",
+        "2000s",
+        "family",
+        "animation",
+        "comedy"
+      ],
+      "tmdbUrl": "https://www.themoviedb.org/movie/9502",
+      "source": "tmdb"
+    },
+    {
+      "id": 18785,
+      "title": "Resacón en Las Vegas",
+      "originalTitle": "The Hangover",
+      "year": 2009,
+      "runtime": 100,
+      "genres": [
+        "Comedia"
+      ],
+      "posterPath": "/posters/18785.jpg",
+      "emoji": "🐯 👶 🎰",
+      "themes": [
+        "mix",
+        "2000s",
+        "comedy"
+      ],
+      "tmdbUrl": "https://www.themoviedb.org/movie/18785",
       "source": "tmdb"
     },
     {
@@ -802,7 +1098,8 @@
         "2010s",
         "family",
         "disney",
-        "animation"
+        "animation",
+        "comedy"
       ],
       "tmdbUrl": "https://www.themoviedb.org/movie/150540",
       "source": "tmdb"
@@ -826,7 +1123,8 @@
         "2010s",
         "family",
         "disney",
-        "animation"
+        "animation",
+        "comedy"
       ],
       "tmdbUrl": "https://www.themoviedb.org/movie/277834",
       "source": "tmdb"
@@ -847,7 +1145,8 @@
       "themes": [
         "mix",
         "2010s",
-        "family"
+        "family",
+        "comedy"
       ],
       "tmdbUrl": "https://www.themoviedb.org/movie/116149",
       "source": "tmdb"
@@ -871,7 +1170,8 @@
         "2010s",
         "family",
         "disney",
-        "animation"
+        "animation",
+        "comedy"
       ],
       "tmdbUrl": "https://www.themoviedb.org/movie/269149",
       "source": "tmdb"
@@ -918,7 +1218,8 @@
         "mix",
         "2010s",
         "family",
-        "animation"
+        "animation",
+        "comedy"
       ],
       "tmdbUrl": "https://www.themoviedb.org/movie/20352",
       "source": "tmdb"
@@ -958,7 +1259,8 @@
       "themes": [
         "mix",
         "2010s",
-        "family"
+        "family",
+        "comedy"
       ],
       "tmdbUrl": "https://www.themoviedb.org/movie/353486",
       "source": "tmdb"
@@ -1007,6 +1309,260 @@
       "source": "tmdb"
     },
     {
+      "id": 38757,
+      "title": "Enredados",
+      "originalTitle": "Tangled",
+      "year": 2010,
+      "runtime": 101,
+      "genres": [
+        "Animación",
+        "Familia",
+        "Aventura"
+      ],
+      "posterPath": "/posters/38757.jpg",
+      "emoji": "👸 🦎 🏮",
+      "themes": [
+        "mix",
+        "2010s",
+        "family",
+        "disney",
+        "animation"
+      ],
+      "tmdbUrl": "https://www.themoviedb.org/movie/38757",
+      "source": "tmdb"
+    },
+    {
+      "id": 10193,
+      "title": "Toy Story 3",
+      "originalTitle": "Toy Story 3",
+      "year": 2010,
+      "runtime": 100,
+      "genres": [
+        "Animación",
+        "Familia",
+        "Comedia"
+      ],
+      "posterPath": "/posters/10193.jpg",
+      "emoji": "🤠 🧸 🔥",
+      "themes": [
+        "mix",
+        "2010s",
+        "family",
+        "disney",
+        "animation",
+        "comedy"
+      ],
+      "tmdbUrl": "https://www.themoviedb.org/movie/10193",
+      "source": "tmdb"
+    },
+    {
+      "id": 77338,
+      "title": "Intocable",
+      "originalTitle": "Intouchables",
+      "year": 2011,
+      "runtime": 112,
+      "genres": [
+        "Drama",
+        "Comedia"
+      ],
+      "posterPath": "/posters/77338.jpg",
+      "emoji": "👨‍🦽 🎶 🤝",
+      "themes": [
+        "mix",
+        "2010s",
+        "comedy"
+      ],
+      "tmdbUrl": "https://www.themoviedb.org/movie/77338",
+      "source": "tmdb"
+    },
+    {
+      "id": 82690,
+      "title": "¡Rompe Ralph!",
+      "originalTitle": "Wreck-It Ralph",
+      "year": 2012,
+      "runtime": 101,
+      "genres": [
+        "Familia",
+        "Animación",
+        "Comedia",
+        "Aventura"
+      ],
+      "posterPath": "/posters/82690.jpg",
+      "emoji": "🕹️ 🔨 🍬",
+      "themes": [
+        "mix",
+        "2010s",
+        "family",
+        "disney",
+        "animation",
+        "comedy"
+      ],
+      "tmdbUrl": "https://www.themoviedb.org/movie/82690",
+      "source": "tmdb"
+    },
+    {
+      "id": 62177,
+      "title": "Indomable",
+      "originalTitle": "Brave",
+      "year": 2012,
+      "runtime": 100,
+      "genres": [
+        "Aventura",
+        "Animación",
+        "Familia",
+        "Fantasía"
+      ],
+      "posterPath": "/posters/62177.jpg",
+      "emoji": "🏹 👩‍🦰 🐻",
+      "themes": [
+        "mix",
+        "2010s",
+        "family",
+        "disney",
+        "animation"
+      ],
+      "tmdbUrl": "https://www.themoviedb.org/movie/62177",
+      "source": "tmdb"
+    },
+    {
+      "id": 236737,
+      "title": "Ocho apellidos vascos",
+      "originalTitle": "Ocho apellidos vascos",
+      "year": 2014,
+      "runtime": 98,
+      "genres": [
+        "Comedia",
+        "Romance"
+      ],
+      "posterPath": "/posters/236737.jpg",
+      "emoji": "👰‍♀️ 🚆 🏘️",
+      "themes": [
+        "mix",
+        "2010s",
+        "comedy"
+      ],
+      "tmdbUrl": "https://www.themoviedb.org/movie/236737",
+      "source": "tmdb"
+    },
+    {
+      "id": 177572,
+      "title": "Big Hero 6",
+      "originalTitle": "Big Hero 6",
+      "year": 2014,
+      "runtime": 101,
+      "genres": [
+        "Aventura",
+        "Familia",
+        "Animación",
+        "Acción",
+        "Comedia"
+      ],
+      "posterPath": "/posters/177572.jpg",
+      "emoji": "🤖 🩺 🦸",
+      "themes": [
+        "mix",
+        "2010s",
+        "family",
+        "disney",
+        "animation",
+        "comedy"
+      ],
+      "tmdbUrl": "https://www.themoviedb.org/movie/177572",
+      "source": "tmdb"
+    },
+    {
+      "id": 127380,
+      "title": "Buscando a Dory",
+      "originalTitle": "Finding Dory",
+      "year": 2016,
+      "runtime": 97,
+      "genres": [
+        "Aventura",
+        "Animación",
+        "Familia"
+      ],
+      "posterPath": "/posters/127380.jpg",
+      "emoji": "🐟 🐙 🔎",
+      "themes": [
+        "mix",
+        "2010s",
+        "family",
+        "disney",
+        "animation"
+      ],
+      "tmdbUrl": "https://www.themoviedb.org/movie/127380",
+      "source": "tmdb"
+    },
+    {
+      "id": 346648,
+      "title": "Paddington 2",
+      "originalTitle": "Paddington 2",
+      "year": 2017,
+      "runtime": 95,
+      "genres": [
+        "Aventura",
+        "Comedia",
+        "Familia"
+      ],
+      "posterPath": "/posters/346648.jpg",
+      "emoji": "🐻 🧥 📕",
+      "themes": [
+        "mix",
+        "2010s",
+        "family",
+        "comedy"
+      ],
+      "tmdbUrl": "https://www.themoviedb.org/movie/346648",
+      "source": "tmdb"
+    },
+    {
+      "id": 508439,
+      "title": "Onward",
+      "originalTitle": "Onward",
+      "year": 2020,
+      "runtime": 102,
+      "genres": [
+        "Aventura",
+        "Animación",
+        "Comedia",
+        "Familia",
+        "Fantasía"
+      ],
+      "posterPath": "/posters/508439.jpg",
+      "emoji": "🧝‍♂️ 🪄 🚐",
+      "themes": [
+        "mix",
+        "2020s",
+        "family",
+        "disney",
+        "animation",
+        "comedy"
+      ],
+      "tmdbUrl": "https://www.themoviedb.org/movie/508439",
+      "source": "tmdb"
+    },
+    {
+      "id": 587792,
+      "title": "Palm Springs",
+      "originalTitle": "Palm Springs",
+      "year": 2020,
+      "runtime": 90,
+      "genres": [
+        "Comedia",
+        "Romance",
+        "Ciencia ficción"
+      ],
+      "posterPath": "/posters/587792.jpg",
+      "emoji": "🌴 💒 🔁",
+      "themes": [
+        "mix",
+        "2020s",
+        "comedy"
+      ],
+      "tmdbUrl": "https://www.themoviedb.org/movie/587792",
+      "source": "tmdb"
+    },
+    {
       "id": 568124,
       "title": "Encanto",
       "originalTitle": "Encanto",
@@ -1025,7 +1581,8 @@
         "2020s",
         "family",
         "disney",
-        "animation"
+        "animation",
+        "comedy"
       ],
       "tmdbUrl": "https://www.themoviedb.org/movie/568124",
       "source": "tmdb"
@@ -1075,9 +1632,58 @@
         "2020s",
         "family",
         "disney",
-        "animation"
+        "animation",
+        "comedy"
       ],
       "tmdbUrl": "https://www.themoviedb.org/movie/508943",
+      "source": "tmdb"
+    },
+    {
+      "id": 527774,
+      "title": "Raya y el último dragón",
+      "originalTitle": "Raya and the Last Dragon",
+      "year": 2021,
+      "runtime": 114,
+      "genres": [
+        "Animación",
+        "Acción",
+        "Aventura",
+        "Fantasía",
+        "Familia"
+      ],
+      "posterPath": "/posters/527774.jpg",
+      "emoji": "🐉 ⚔️ 💎",
+      "themes": [
+        "mix",
+        "2020s",
+        "family",
+        "disney",
+        "animation"
+      ],
+      "tmdbUrl": "https://www.themoviedb.org/movie/527774",
+      "source": "tmdb"
+    },
+    {
+      "id": 501929,
+      "title": "Los Mitchell contra las máquinas",
+      "originalTitle": "The Mitchells vs. the Machines",
+      "year": 2021,
+      "runtime": 110,
+      "genres": [
+        "Animación",
+        "Aventura",
+        "Comedia"
+      ],
+      "posterPath": "/posters/501929.jpg",
+      "emoji": "👨‍👩‍👧‍👦 🤖 📱",
+      "themes": [
+        "mix",
+        "2020s",
+        "family",
+        "animation",
+        "comedy"
+      ],
+      "tmdbUrl": "https://www.themoviedb.org/movie/501929",
       "source": "tmdb"
     },
     {
@@ -1099,7 +1705,8 @@
         "2020s",
         "family",
         "disney",
-        "animation"
+        "animation",
+        "comedy"
       ],
       "tmdbUrl": "https://www.themoviedb.org/movie/508947",
       "source": "tmdb"
@@ -1123,7 +1730,8 @@
         "mix",
         "2020s",
         "family",
-        "animation"
+        "animation",
+        "comedy"
       ],
       "tmdbUrl": "https://www.themoviedb.org/movie/502356",
       "source": "tmdb"
@@ -1144,9 +1752,35 @@
       "themes": [
         "mix",
         "2020s",
-        "family"
+        "family",
+        "comedy"
       ],
       "tmdbUrl": "https://www.themoviedb.org/movie/787699",
+      "source": "tmdb"
+    },
+    {
+      "id": 976573,
+      "title": "Elemental",
+      "originalTitle": "Elemental",
+      "year": 2023,
+      "runtime": 102,
+      "genres": [
+        "Animación",
+        "Comedia",
+        "Familia",
+        "Romance"
+      ],
+      "posterPath": "/posters/976573.jpg",
+      "emoji": "🔥 💧 ❤️",
+      "themes": [
+        "mix",
+        "2020s",
+        "family",
+        "disney",
+        "animation",
+        "comedy"
+      ],
+      "tmdbUrl": "https://www.themoviedb.org/movie/976573",
       "source": "tmdb"
     },
     {
@@ -1168,7 +1802,8 @@
         "2020s",
         "family",
         "disney",
-        "animation"
+        "animation",
+        "comedy"
       ],
       "tmdbUrl": "https://www.themoviedb.org/movie/1022789",
       "source": "tmdb"

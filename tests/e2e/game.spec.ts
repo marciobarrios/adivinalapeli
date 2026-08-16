@@ -43,6 +43,21 @@ test("configura y completa una partida por equipos", async ({ page }) => {
   await expect(page.getByRole("button", { name: "Revancha" })).toBeVisible();
 });
 
+test("permite empezar una partida de comedias", async ({ page }) => {
+  await page.goto("/");
+
+  const comedyTheme = page.getByRole("button", { name: /^Comedias/ });
+  await expect(comedyTheme).toContainText("50 películas");
+  await comedyTheme.click();
+  await expect(comedyTheme).toHaveAttribute("aria-pressed", "true");
+
+  await page.getByRole("button", { name: "Empezar partida" }).click();
+  await page.getByRole("button", { name: "Estoy listo" }).click();
+
+  await expect(page.getByText("Haz esta película")).toBeVisible();
+  await expect(page.getByTestId("movie-poster")).toBeVisible();
+});
+
 test("restaura una partida en curso al recargar", async ({ page }) => {
   await page.goto("/");
   await page.getByRole("button", { name: "Empezar partida" }).click();
