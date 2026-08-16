@@ -1,0 +1,19 @@
+{
+  "$schema": "./node_modules/oxfmt/configuration_schema.json",
+  "ignorePatterns": [
+    ".next/**",
+    "node_modules/**",
+    "out/**",
+    "playwright-report/**",
+    "public/tmdb.svg",
+    "src/data/movies.generated.json",
+    "test-results/**"
+  ],
+  "printWidth": 100,
+  "semi": true,
+  "singleQuote": false,
+  "sortImports": true,
+  "sortTailwindcss": {
+    "stylesheet": "src/app/globals.css"
+  }
+}

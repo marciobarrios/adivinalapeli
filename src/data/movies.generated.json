@@ -1,0 +1,1146 @@
+{
+  "version": 1,
+  "generatedAt": "2026-08-16T21:36:04.311Z",
+  "refreshAfter": "2027-01-13T21:36:04.311Z",
+  "source": "tmdb",
+  "movies": [
+    {
+      "id": 105,
+      "title": "Regreso al futuro",
+      "originalTitle": "Back to the Future",
+      "year": 1985,
+      "runtime": 116,
+      "genres": [
+        "Aventura",
+        "Comedia",
+        "Ciencia ficción"
+      ],
+      "emoji": "🚗 ⚡ 🕰️",
+      "themes": [
+        "mix",
+        "80s",
+        "family"
+      ],
+      "tmdbUrl": "https://www.themoviedb.org/movie/105",
+      "source": "tmdb"
+    },
+    {
+      "id": 601,
+      "title": "E.T. el extraterrestre",
+      "originalTitle": "E.T. the Extra-Terrestrial",
+      "year": 1982,
+      "runtime": 115,
+      "genres": [
+        "Aventura",
+        "Ciencia ficción",
+        "Familia"
+      ],
+      "emoji": "👽 🚲 🌕",
+      "themes": [
+        "mix",
+        "80s",
+        "family"
+      ],
+      "tmdbUrl": "https://www.themoviedb.org/movie/601",
+      "source": "tmdb"
+    },
+    {
+      "id": 9340,
+      "title": "Los Goonies",
+      "originalTitle": "The Goonies",
+      "year": 1985,
+      "runtime": 114,
+      "genres": [
+        "Aventura",
+        "Comedia",
+        "Familia"
+      ],
+      "emoji": "🗺️ 🏴‍☠️ 💎",
+      "themes": [
+        "mix",
+        "80s",
+        "family"
+      ],
+      "tmdbUrl": "https://www.themoviedb.org/movie/9340",
+      "source": "tmdb"
+    },
+    {
+      "id": 620,
+      "title": "Cazafantasmas",
+      "originalTitle": "Ghostbusters",
+      "year": 1984,
+      "runtime": 107,
+      "genres": [
+        "Comedia",
+        "Fantasía"
+      ],
+      "emoji": "👻 🚫 🏙️",
+      "themes": [
+        "mix",
+        "80s",
+        "family"
+      ],
+      "tmdbUrl": "https://www.themoviedb.org/movie/620",
+      "source": "tmdb"
+    },
+    {
+      "id": 85,
+      "title": "En busca del arca perdida",
+      "originalTitle": "Raiders of the Lost Ark",
+      "year": 1981,
+      "runtime": 115,
+      "genres": [
+        "Aventura",
+        "Acción"
+      ],
+      "emoji": "🤠 🗿 🐍",
+      "themes": [
+        "mix",
+        "80s",
+        "family"
+      ],
+      "tmdbUrl": "https://www.themoviedb.org/movie/85",
+      "source": "tmdb"
+    },
+    {
+      "id": 1885,
+      "title": "Karate Kid, el momento de la verdad",
+      "originalTitle": "The Karate Kid",
+      "year": 1984,
+      "runtime": 126,
+      "genres": [
+        "Acción",
+        "Drama",
+        "Familia"
+      ],
+      "emoji": "🥋 🦵 🏆",
+      "themes": [
+        "mix",
+        "80s",
+        "family"
+      ],
+      "tmdbUrl": "https://www.themoviedb.org/movie/1885",
+      "source": "tmdb"
+    },
+    {
+      "id": 927,
+      "title": "Gremlins",
+      "originalTitle": "Gremlins",
+      "year": 1984,
+      "runtime": 106,
+      "genres": [
+        "Fantasía",
+        "Terror",
+        "Comedia"
+      ],
+      "emoji": "🐾 🌙 💦",
+      "themes": [
+        "mix",
+        "80s"
+      ],
+      "tmdbUrl": "https://www.themoviedb.org/movie/927",
+      "source": "tmdb"
+    },
+    {
+      "id": 4011,
+      "title": "Bitelchús",
+      "originalTitle": "Beetlejuice",
+      "year": 1988,
+      "runtime": 92,
+      "genres": [
+        "Fantasía",
+        "Comedia"
+      ],
+      "emoji": "👻 🪲 🏠",
+      "themes": [
+        "mix",
+        "80s"
+      ],
+      "tmdbUrl": "https://www.themoviedb.org/movie/4011",
+      "source": "tmdb"
+    },
+    {
+      "id": 2493,
+      "title": "La princesa prometida",
+      "originalTitle": "The Princess Bride",
+      "year": 1987,
+      "runtime": 98,
+      "genres": [
+        "Aventura",
+        "Fantasía",
+        "Romance",
+        "Familia"
+      ],
+      "emoji": "👸 ⚔️ ❤️",
+      "themes": [
+        "mix",
+        "80s",
+        "family"
+      ],
+      "tmdbUrl": "https://www.themoviedb.org/movie/2493",
+      "source": "tmdb"
+    },
+    {
+      "id": 2280,
+      "title": "Big",
+      "originalTitle": "Big",
+      "year": 1988,
+      "runtime": 104,
+      "genres": [
+        "Fantasía",
+        "Drama",
+        "Comedia"
+      ],
+      "emoji": "👦 ➡️ 👨 🎹",
+      "themes": [
+        "mix",
+        "80s",
+        "family"
+      ],
+      "tmdbUrl": "https://www.themoviedb.org/movie/2280",
+      "source": "tmdb"
+    },
+    {
+      "id": 771,
+      "title": "Solo en casa",
+      "originalTitle": "Home Alone",
+      "year": 1990,
+      "runtime": 102,
+      "genres": [
+        "Comedia",
+        "Familia"
+      ],
+      "emoji": "🏠 👦 🪤",
+      "themes": [
+        "mix",
+        "90s",
+        "family"
+      ],
+      "tmdbUrl": "https://www.themoviedb.org/movie/771",
+      "source": "tmdb"
+    },
+    {
+      "id": 329,
+      "title": "Jurassic Park (Parque Jurásico)",
+      "originalTitle": "Jurassic Park",
+      "year": 1993,
+      "runtime": 120,
+      "genres": [
+        "Aventura",
+        "Ciencia ficción"
+      ],
+      "emoji": "🦖 🏝️ 🚙",
+      "themes": [
+        "mix",
+        "90s",
+        "family"
+      ],
+      "tmdbUrl": "https://www.themoviedb.org/movie/329",
+      "source": "tmdb"
+    },
+    {
+      "id": 8587,
+      "title": "El rey león",
+      "originalTitle": "The Lion King",
+      "year": 1994,
+      "runtime": 85,
+      "genres": [
+        "Animación",
+        "Familia",
+        "Drama"
+      ],
+      "emoji": "🦁 👑 🌅",
+      "themes": [
+        "mix",
+        "90s",
+        "family",
+        "disney",
+        "animation"
+      ],
+      "tmdbUrl": "https://www.themoviedb.org/movie/8587",
+      "source": "tmdb"
+    },
+    {
+      "id": 862,
+      "title": "Toy Story",
+      "originalTitle": "Toy Story",
+      "year": 1995,
+      "runtime": 77,
+      "genres": [
+        "Familia",
+        "Comedia",
+        "Animación",
+        "Aventura"
+      ],
+      "emoji": "🤠 🚀 🧸",
+      "themes": [
+        "mix",
+        "90s",
+        "family",
+        "disney",
+        "animation"
+      ],
+      "tmdbUrl": "https://www.themoviedb.org/movie/862",
+      "source": "tmdb"
+    },
+    {
+      "id": 597,
+      "title": "Titanic",
+      "originalTitle": "Titanic",
+      "year": 1997,
+      "runtime": 194,
+      "genres": [
+        "Drama",
+        "Romance"
+      ],
+      "emoji": "🚢 🧊 ❤️",
+      "themes": [
+        "mix",
+        "90s"
+      ],
+      "tmdbUrl": "https://www.themoviedb.org/movie/597",
+      "source": "tmdb"
+    },
+    {
+      "id": 8844,
+      "title": "Jumanji",
+      "originalTitle": "Jumanji",
+      "year": 1995,
+      "runtime": 104,
+      "genres": [
+        "Aventura",
+        "Fantasía",
+        "Familia"
+      ],
+      "emoji": "🎲 🌴 🦁",
+      "themes": [
+        "mix",
+        "90s",
+        "family"
+      ],
+      "tmdbUrl": "https://www.themoviedb.org/movie/8844",
+      "source": "tmdb"
+    },
+    {
+      "id": 10830,
+      "title": "Matilda",
+      "originalTitle": "Matilda",
+      "year": 1996,
+      "runtime": 98,
+      "genres": [
+        "Comedia",
+        "Familia",
+        "Fantasía"
+      ],
+      "emoji": "📚 👧 ✨",
+      "themes": [
+        "mix",
+        "90s",
+        "family"
+      ],
+      "tmdbUrl": "https://www.themoviedb.org/movie/10830",
+      "source": "tmdb"
+    },
+    {
+      "id": 607,
+      "title": "Hombres de negro",
+      "originalTitle": "Men in Black",
+      "year": 1997,
+      "runtime": 94,
+      "genres": [
+        "Acción",
+        "Aventura",
+        "Comedia",
+        "Ciencia ficción"
+      ],
+      "emoji": "🕶️ 👽 ⚡",
+      "themes": [
+        "mix",
+        "90s"
+      ],
+      "tmdbUrl": "https://www.themoviedb.org/movie/607",
+      "source": "tmdb"
+    },
+    {
+      "id": 37165,
+      "title": "El show de Truman",
+      "originalTitle": "The Truman Show",
+      "year": 1998,
+      "runtime": 103,
+      "genres": [
+        "Comedia",
+        "Drama"
+      ],
+      "emoji": "📺 🌎 ⛵",
+      "themes": [
+        "mix",
+        "90s"
+      ],
+      "tmdbUrl": "https://www.themoviedb.org/movie/37165",
+      "source": "tmdb"
+    },
+    {
+      "id": 854,
+      "title": "La máscara",
+      "originalTitle": "The Mask",
+      "year": 1994,
+      "runtime": 101,
+      "genres": [
+        "Comedia",
+        "Fantasía",
+        "Crimen",
+        "Romance"
+      ],
+      "emoji": "🎭 🟢 💃",
+      "themes": [
+        "mix",
+        "90s"
+      ],
+      "tmdbUrl": "https://www.themoviedb.org/movie/854",
+      "source": "tmdb"
+    },
+    {
+      "id": 788,
+      "title": "Señora Doubtfire: Papá de por vida",
+      "originalTitle": "Mrs. Doubtfire",
+      "year": 1993,
+      "runtime": 125,
+      "genres": [
+        "Comedia",
+        "Drama",
+        "Familia"
+      ],
+      "emoji": "👵 🎭 👨‍👧‍👦",
+      "themes": [
+        "mix",
+        "90s",
+        "family"
+      ],
+      "tmdbUrl": "https://www.themoviedb.org/movie/788",
+      "source": "tmdb"
+    },
+    {
+      "id": 162,
+      "title": "Eduardo Manostijeras",
+      "originalTitle": "Edward Scissorhands",
+      "year": 1990,
+      "runtime": 98,
+      "genres": [
+        "Fantasía",
+        "Drama",
+        "Romance"
+      ],
+      "emoji": "✂️ 👐 🌹",
+      "themes": [
+        "mix",
+        "90s"
+      ],
+      "tmdbUrl": "https://www.themoviedb.org/movie/162",
+      "source": "tmdb"
+    },
+    {
+      "id": 671,
+      "title": "Harry Potter y la piedra filosofal",
+      "originalTitle": "Harry Potter and the Philosopher's Stone",
+      "year": 2001,
+      "runtime": 152,
+      "genres": [
+        "Aventura",
+        "Fantasía"
+      ],
+      "emoji": "⚡ 🧙‍♂️ 🏰",
+      "themes": [
+        "mix",
+        "2000s",
+        "family"
+      ],
+      "tmdbUrl": "https://www.themoviedb.org/movie/671",
+      "source": "tmdb"
+    },
+    {
+      "id": 808,
+      "title": "Shrek",
+      "originalTitle": "Shrek",
+      "year": 2001,
+      "runtime": 92,
+      "genres": [
+        "Animación",
+        "Comedia",
+        "Fantasía",
+        "Aventura",
+        "Familia"
+      ],
+      "emoji": "🧌 👸 🐴",
+      "themes": [
+        "mix",
+        "2000s",
+        "family",
+        "animation"
+      ],
+      "tmdbUrl": "https://www.themoviedb.org/movie/808",
+      "source": "tmdb"
+    },
+    {
+      "id": 12,
+      "title": "Buscando a Nemo",
+      "originalTitle": "Finding Nemo",
+      "year": 2003,
+      "runtime": 100,
+      "genres": [
+        "Animación",
+        "Familia",
+        "Aventura"
+      ],
+      "emoji": "🐠 🌊 🔎",
+      "themes": [
+        "mix",
+        "2000s",
+        "family",
+        "disney",
+        "animation"
+      ],
+      "tmdbUrl": "https://www.themoviedb.org/movie/12",
+      "source": "tmdb"
+    },
+    {
+      "id": 22,
+      "title": "Piratas del Caribe: La maldición de la Perla Negra",
+      "originalTitle": "Pirates of the Caribbean: The Curse of the Black Pearl",
+      "year": 2003,
+      "runtime": 143,
+      "genres": [
+        "Aventura",
+        "Fantasía",
+        "Acción"
+      ],
+      "emoji": "🏴‍☠️ 🛶 💀",
+      "themes": [
+        "mix",
+        "2000s",
+        "family",
+        "disney"
+      ],
+      "tmdbUrl": "https://www.themoviedb.org/movie/22",
+      "source": "tmdb"
+    },
+    {
+      "id": 9806,
+      "title": "Los Increíbles",
+      "originalTitle": "The Incredibles",
+      "year": 2004,
+      "runtime": 115,
+      "genres": [
+        "Acción",
+        "Aventura",
+        "Animación",
+        "Familia"
+      ],
+      "emoji": "🦸‍♀️ 👨‍👩‍👧‍👦 💥",
+      "themes": [
+        "mix",
+        "2000s",
+        "family",
+        "disney",
+        "animation"
+      ],
+      "tmdbUrl": "https://www.themoviedb.org/movie/9806",
+      "source": "tmdb"
+    },
+    {
+      "id": 118,
+      "title": "Charlie y la fábrica de chocolate",
+      "originalTitle": "Charlie and the Chocolate Factory",
+      "year": 2005,
+      "runtime": 116,
+      "genres": [
+        "Aventura",
+        "Comedia",
+        "Familia",
+        "Fantasía"
+      ],
+      "emoji": "🍫 🏭 🎩",
+      "themes": [
+        "mix",
+        "2000s",
+        "family"
+      ],
+      "tmdbUrl": "https://www.themoviedb.org/movie/118",
+      "source": "tmdb"
+    },
+    {
+      "id": 2062,
+      "title": "Ratatouille",
+      "originalTitle": "Ratatouille",
+      "year": 2007,
+      "runtime": 111,
+      "genres": [
+        "Animación",
+        "Comedia",
+        "Familia",
+        "Fantasía"
+      ],
+      "emoji": "🐀 👨‍🍳 🇫🇷",
+      "themes": [
+        "mix",
+        "2000s",
+        "family",
+        "disney",
+        "animation"
+      ],
+      "tmdbUrl": "https://www.themoviedb.org/movie/2062",
+      "source": "tmdb"
+    },
+    {
+      "id": 10681,
+      "title": "WALL·E: Batallón de limpieza",
+      "originalTitle": "WALL·E",
+      "year": 2008,
+      "runtime": 97,
+      "genres": [
+        "Animación",
+        "Familia",
+        "Ciencia ficción"
+      ],
+      "emoji": "🤖 🌱 🚀",
+      "themes": [
+        "mix",
+        "2000s",
+        "family",
+        "disney",
+        "animation"
+      ],
+      "tmdbUrl": "https://www.themoviedb.org/movie/10681",
+      "source": "tmdb"
+    },
+    {
+      "id": 14160,
+      "title": "Up",
+      "originalTitle": "Up",
+      "year": 2009,
+      "runtime": 96,
+      "genres": [
+        "Animación",
+        "Comedia",
+        "Familia",
+        "Aventura"
+      ],
+      "emoji": "🏠 🎈 🦜",
+      "themes": [
+        "mix",
+        "2000s",
+        "family",
+        "disney",
+        "animation"
+      ],
+      "tmdbUrl": "https://www.themoviedb.org/movie/14160",
+      "source": "tmdb"
+    },
+    {
+      "id": 585,
+      "title": "Monstruos, S.A.",
+      "originalTitle": "Monsters, Inc.",
+      "year": 2001,
+      "runtime": 88,
+      "genres": [
+        "Animación",
+        "Comedia",
+        "Familia",
+        "Fantasía"
+      ],
+      "emoji": "👹 🚪 😱",
+      "themes": [
+        "mix",
+        "2000s",
+        "family",
+        "disney",
+        "animation"
+      ],
+      "tmdbUrl": "https://www.themoviedb.org/movie/585",
+      "source": "tmdb"
+    },
+    {
+      "id": 425,
+      "title": "Ice Age: La edad de hielo",
+      "originalTitle": "Ice Age",
+      "year": 2002,
+      "runtime": 75,
+      "genres": [
+        "Animación",
+        "Comedia",
+        "Familia",
+        "Aventura"
+      ],
+      "emoji": "🦣 🦥 🧊",
+      "themes": [
+        "mix",
+        "2000s",
+        "family",
+        "animation"
+      ],
+      "tmdbUrl": "https://www.themoviedb.org/movie/425",
+      "source": "tmdb"
+    },
+    {
+      "id": 1593,
+      "title": "Noche en el museo",
+      "originalTitle": "Night at the Museum",
+      "year": 2006,
+      "runtime": 108,
+      "genres": [
+        "Fantasía",
+        "Familia",
+        "Comedia"
+      ],
+      "emoji": "🏛️ 🌙 🦖",
+      "themes": [
+        "mix",
+        "2000s",
+        "family"
+      ],
+      "tmdbUrl": "https://www.themoviedb.org/movie/1593",
+      "source": "tmdb"
+    },
+    {
+      "id": 109445,
+      "title": "Frozen: El reino del hielo",
+      "originalTitle": "Frozen",
+      "year": 2013,
+      "runtime": 102,
+      "genres": [
+        "Animación",
+        "Familia",
+        "Aventura",
+        "Fantasía"
+      ],
+      "emoji": "❄️ 👭 ⛄",
+      "themes": [
+        "mix",
+        "2010s",
+        "family",
+        "disney",
+        "animation"
+      ],
+      "tmdbUrl": "https://www.themoviedb.org/movie/109445",
+      "source": "tmdb"
+    },
+    {
+      "id": 354912,
+      "title": "Coco",
+      "originalTitle": "Coco",
+      "year": 2017,
+      "runtime": 109,
+      "genres": [
+        "Familia",
+        "Animación",
+        "Música",
+        "Aventura"
+      ],
+      "emoji": "🎸 💀 🌼",
+      "themes": [
+        "mix",
+        "2010s",
+        "family",
+        "disney",
+        "animation"
+      ],
+      "tmdbUrl": "https://www.themoviedb.org/movie/354912",
+      "source": "tmdb"
+    },
+    {
+      "id": 150540,
+      "title": "Del revés (Inside Out)",
+      "originalTitle": "Inside Out",
+      "year": 2015,
+      "runtime": 95,
+      "genres": [
+        "Animación",
+        "Familia",
+        "Aventura",
+        "Drama",
+        "Comedia"
+      ],
+      "emoji": "🧠 😊 😢",
+      "themes": [
+        "mix",
+        "2010s",
+        "family",
+        "disney",
+        "animation"
+      ],
+      "tmdbUrl": "https://www.themoviedb.org/movie/150540",
+      "source": "tmdb"
+    },
+    {
+      "id": 277834,
+      "title": "Vaiana",
+      "originalTitle": "Moana",
+      "year": 2016,
+      "runtime": 107,
+      "genres": [
+        "Aventura",
+        "Comedia",
+        "Familia",
+        "Animación"
+      ],
+      "emoji": "🌊 ⛵ 🌺",
+      "themes": [
+        "mix",
+        "2010s",
+        "family",
+        "disney",
+        "animation"
+      ],
+      "tmdbUrl": "https://www.themoviedb.org/movie/277834",
+      "source": "tmdb"
+    },
+    {
+      "id": 116149,
+      "title": "Paddington",
+      "originalTitle": "Paddington",
+      "year": 2014,
+      "runtime": 95,
+      "genres": [
+        "Comedia",
+        "Aventura",
+        "Familia"
+      ],
+      "emoji": "🐻 🧥 🍊",
+      "themes": [
+        "mix",
+        "2010s",
+        "family"
+      ],
+      "tmdbUrl": "https://www.themoviedb.org/movie/116149",
+      "source": "tmdb"
+    },
+    {
+      "id": 269149,
+      "title": "Zootrópolis",
+      "originalTitle": "Zootopia",
+      "year": 2016,
+      "runtime": 108,
+      "genres": [
+        "Animación",
+        "Aventura",
+        "Familia",
+        "Comedia"
+      ],
+      "emoji": "🐰 🦊 🏙️",
+      "themes": [
+        "mix",
+        "2010s",
+        "family",
+        "disney",
+        "animation"
+      ],
+      "tmdbUrl": "https://www.themoviedb.org/movie/269149",
+      "source": "tmdb"
+    },
+    {
+      "id": 10191,
+      "title": "Cómo entrenar a tu dragón",
+      "originalTitle": "How to Train Your Dragon",
+      "year": 2010,
+      "runtime": 98,
+      "genres": [
+        "Fantasía",
+        "Aventura",
+        "Animación",
+        "Familia"
+      ],
+      "emoji": "🐉 🛡️ 🦿",
+      "themes": [
+        "mix",
+        "2010s",
+        "family",
+        "animation"
+      ],
+      "tmdbUrl": "https://www.themoviedb.org/movie/10191",
+      "source": "tmdb"
+    },
+    {
+      "id": 20352,
+      "title": "Gru Mi villano favorito",
+      "originalTitle": "Despicable Me",
+      "year": 2010,
+      "runtime": 95,
+      "genres": [
+        "Animación",
+        "Comedia",
+        "Crimen",
+        "Ciencia ficción",
+        "Familia"
+      ],
+      "emoji": "🦹‍♂️ 🍌 👧",
+      "themes": [
+        "mix",
+        "2010s",
+        "family",
+        "animation"
+      ],
+      "tmdbUrl": "https://www.themoviedb.org/movie/20352",
+      "source": "tmdb"
+    },
+    {
+      "id": 316029,
+      "title": "El gran showman",
+      "originalTitle": "The Greatest Showman",
+      "year": 2017,
+      "runtime": 105,
+      "genres": [
+        "Drama"
+      ],
+      "emoji": "🎪 🎩 🎶",
+      "themes": [
+        "mix",
+        "2010s",
+        "family"
+      ],
+      "tmdbUrl": "https://www.themoviedb.org/movie/316029",
+      "source": "tmdb"
+    },
+    {
+      "id": 353486,
+      "title": "Jumanji: Bienvenidos a la jungla",
+      "originalTitle": "Jumanji: Welcome to the Jungle",
+      "year": 2017,
+      "runtime": 119,
+      "genres": [
+        "Aventura",
+        "Comedia",
+        "Fantasía"
+      ],
+      "emoji": "🎮 🌴 🦏",
+      "themes": [
+        "mix",
+        "2010s",
+        "family"
+      ],
+      "tmdbUrl": "https://www.themoviedb.org/movie/353486",
+      "source": "tmdb"
+    },
+    {
+      "id": 324857,
+      "title": "Spider-Man: un nuevo universo",
+      "originalTitle": "Spider-Man: Into the Spider-Verse",
+      "year": 2018,
+      "runtime": 116,
+      "genres": [
+        "Animación",
+        "Acción",
+        "Aventura",
+        "Ciencia ficción"
+      ],
+      "emoji": "🕷️ 🕸️ 🌆",
+      "themes": [
+        "mix",
+        "2010s",
+        "family",
+        "animation"
+      ],
+      "tmdbUrl": "https://www.themoviedb.org/movie/324857",
+      "source": "tmdb"
+    },
+    {
+      "id": 406997,
+      "title": "Wonder",
+      "originalTitle": "Wonder",
+      "year": 2017,
+      "runtime": 120,
+      "genres": [
+        "Familia",
+        "Drama"
+      ],
+      "emoji": "🚀 👦 ❤️",
+      "themes": [
+        "mix",
+        "2010s",
+        "family"
+      ],
+      "tmdbUrl": "https://www.themoviedb.org/movie/406997",
+      "source": "tmdb"
+    },
+    {
+      "id": 568124,
+      "title": "Encanto",
+      "originalTitle": "Encanto",
+      "year": 2021,
+      "runtime": 102,
+      "genres": [
+        "Animación",
+        "Comedia",
+        "Familia",
+        "Fantasía"
+      ],
+      "emoji": "🏠 ✨ 🦋",
+      "themes": [
+        "mix",
+        "2020s",
+        "family",
+        "disney",
+        "animation"
+      ],
+      "tmdbUrl": "https://www.themoviedb.org/movie/568124",
+      "source": "tmdb"
+    },
+    {
+      "id": 508442,
+      "title": "Soul",
+      "originalTitle": "Soul",
+      "year": 2020,
+      "runtime": 107,
+      "genres": [
+        "Animación",
+        "Familia",
+        "Drama",
+        "Música",
+        "Fantasía"
+      ],
+      "emoji": "🎹 👻 🌌",
+      "themes": [
+        "mix",
+        "2020s",
+        "family",
+        "disney",
+        "animation"
+      ],
+      "tmdbUrl": "https://www.themoviedb.org/movie/508442",
+      "source": "tmdb"
+    },
+    {
+      "id": 508943,
+      "title": "Luca",
+      "originalTitle": "Luca",
+      "year": 2021,
+      "runtime": 101,
+      "genres": [
+        "Animación",
+        "Familia",
+        "Fantasía",
+        "Drama",
+        "Comedia"
+      ],
+      "emoji": "🐟 🛵 🇮🇹",
+      "themes": [
+        "mix",
+        "2020s",
+        "family",
+        "disney",
+        "animation"
+      ],
+      "tmdbUrl": "https://www.themoviedb.org/movie/508943",
+      "source": "tmdb"
+    },
+    {
+      "id": 508947,
+      "title": "Red",
+      "originalTitle": "Turning Red",
+      "year": 2022,
+      "runtime": 100,
+      "genres": [
+        "Animación",
+        "Familia",
+        "Comedia",
+        "Fantasía"
+      ],
+      "emoji": "🐼 🔴 🎤",
+      "themes": [
+        "mix",
+        "2020s",
+        "family",
+        "disney",
+        "animation"
+      ],
+      "tmdbUrl": "https://www.themoviedb.org/movie/508947",
+      "source": "tmdb"
+    },
+    {
+      "id": 502356,
+      "title": "Super Mario Bros: La película",
+      "originalTitle": "The Super Mario Bros. Movie",
+      "year": 2023,
+      "runtime": 92,
+      "genres": [
+        "Familia",
+        "Comedia",
+        "Aventura",
+        "Fantasía",
+        "Animación"
+      ],
+      "emoji": "🍄 👨‍🔧 🏎️",
+      "themes": [
+        "mix",
+        "2020s",
+        "family",
+        "animation"
+      ],
+      "tmdbUrl": "https://www.themoviedb.org/movie/502356",
+      "source": "tmdb"
+    },
+    {
+      "id": 787699,
+      "title": "Wonka",
+      "originalTitle": "Wonka",
+      "year": 2023,
+      "runtime": 117,
+      "genres": [
+        "Comedia",
+        "Familia",
+        "Fantasía"
+      ],
+      "emoji": "🍫 🎩 ✨",
+      "themes": [
+        "mix",
+        "2020s",
+        "family"
+      ],
+      "tmdbUrl": "https://www.themoviedb.org/movie/787699",
+      "source": "tmdb"
+    },
+    {
+      "id": 1022789,
+      "title": "Del revés 2 (Inside Out 2)",
+      "originalTitle": "Inside Out 2",
+      "year": 2024,
+      "runtime": 96,
+      "genres": [
+        "Animación",
+        "Aventura",
+        "Comedia",
+        "Familia"
+      ],
+      "emoji": "🧠 😰 🏒",
+      "themes": [
+        "mix",
+        "2020s",
+        "family",
+        "disney",
+        "animation"
+      ],
+      "tmdbUrl": "https://www.themoviedb.org/movie/1022789",
+      "source": "tmdb"
+    },
+    {
+      "id": 1184918,
+      "title": "Robot salvaje",
+      "originalTitle": "The Wild Robot",
+      "year": 2024,
+      "runtime": 101,
+      "genres": [
+        "Familia",
+        "Animación",
+        "Ciencia ficción",
+        "Aventura"
+      ],
+      "emoji": "🤖 🦊 🌲",
+      "themes": [
+        "mix",
+        "2020s",
+        "family",
+        "animation"
+      ],
+      "tmdbUrl": "https://www.themoviedb.org/movie/1184918",
+      "source": "tmdb"
+    }
+  ]
+}
