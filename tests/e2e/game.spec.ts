@@ -26,6 +26,7 @@ test("configura y completa una partida por equipos", async ({ page }) => {
   ).toBeVisible();
   await page.getByRole("button", { name: "Estoy listo" }).click();
   await expect(page.getByText("Haz esta película")).toBeVisible();
+  await expect(page.getByTestId("movie-poster")).toBeVisible();
   await page.getByRole("button", { name: "¡Acertada!" }).click();
   await page.getByRole("button", { name: "Terminar turno antes" }).click();
 
@@ -74,6 +75,29 @@ test("vuelve a cargar sin conexión después de la primera visita", async ({ con
   await expect(
     page.getByRole("heading", { name: "Pasa el móvil a Equipo Claqueta" }),
   ).toBeVisible();
+  await page.getByRole("button", { name: "Estoy listo" }).click();
+
+  const offlinePoster = page.getByTestId("movie-poster");
+  await expect(offlinePoster).toBeVisible();
+  await expect
+    .poll(() =>
+      offlinePoster.evaluate((image: HTMLImageElement) => image.complete && image.naturalWidth > 0),
+    )
+    .toBe(true);
 
   await context.setOffline(false);
+});
+
+test.describe("fallback de portada", () => {
+  test.use({ serviceWorkers: "block" });
+
+  test("muestra la pista emoji cuando una portada no puede cargarse", async ({ page }) => {
+    await page.route("**/posters/**", (route) => route.abort());
+    await page.goto("/");
+    await page.getByRole("button", { name: "Empezar partida" }).click();
+    await page.getByRole("button", { name: "Estoy listo" }).click();
+
+    await expect(page.getByText("Pista emoji", { exact: true })).toBeVisible();
+    await expect(page.getByTestId("movie-poster")).toHaveCount(0);
+  });
 });

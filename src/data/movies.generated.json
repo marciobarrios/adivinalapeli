@@ -1,7 +1,7 @@
 {
-  "version": 1,
-  "generatedAt": "2026-08-16T21:36:04.311Z",
-  "refreshAfter": "2027-01-13T21:36:04.311Z",
+  "version": 2,
+  "generatedAt": "2026-08-16T22:34:51.806Z",
+  "refreshAfter": "2027-01-13T22:34:51.806Z",
   "source": "tmdb",
   "movies": [
     {
@@ -15,6 +15,7 @@
         "Comedia",
         "Ciencia ficción"
       ],
+      "posterPath": "/posters/105.jpg",
       "emoji": "🚗 ⚡ 🕰️",
       "themes": [
         "mix",
@@ -35,6 +36,7 @@
         "Ciencia ficción",
         "Familia"
       ],
+      "posterPath": "/posters/601.jpg",
       "emoji": "👽 🚲 🌕",
       "themes": [
         "mix",
@@ -55,6 +57,7 @@
         "Comedia",
         "Familia"
       ],
+      "posterPath": "/posters/9340.jpg",
       "emoji": "🗺️ 🏴‍☠️ 💎",
       "themes": [
         "mix",
@@ -74,6 +77,7 @@
         "Comedia",
         "Fantasía"
       ],
+      "posterPath": "/posters/620.jpg",
       "emoji": "👻 🚫 🏙️",
       "themes": [
         "mix",
@@ -93,6 +97,7 @@
         "Aventura",
         "Acción"
       ],
+      "posterPath": "/posters/85.jpg",
       "emoji": "🤠 🗿 🐍",
       "themes": [
         "mix",
@@ -113,6 +118,7 @@
         "Drama",
         "Familia"
       ],
+      "posterPath": "/posters/1885.jpg",
       "emoji": "🥋 🦵 🏆",
       "themes": [
         "mix",
@@ -133,6 +139,7 @@
         "Terror",
         "Comedia"
       ],
+      "posterPath": "/posters/927.jpg",
       "emoji": "🐾 🌙 💦",
       "themes": [
         "mix",
@@ -151,6 +158,7 @@
         "Fantasía",
         "Comedia"
       ],
+      "posterPath": "/posters/4011.jpg",
       "emoji": "👻 🪲 🏠",
       "themes": [
         "mix",
@@ -171,6 +179,7 @@
         "Romance",
         "Familia"
       ],
+      "posterPath": "/posters/2493.jpg",
       "emoji": "👸 ⚔️ ❤️",
       "themes": [
         "mix",
@@ -191,6 +200,7 @@
         "Drama",
         "Comedia"
       ],
+      "posterPath": "/posters/2280.jpg",
       "emoji": "👦 ➡️ 👨 🎹",
       "themes": [
         "mix",
@@ -210,6 +220,7 @@
         "Comedia",
         "Familia"
       ],
+      "posterPath": "/posters/771.jpg",
       "emoji": "🏠 👦 🪤",
       "themes": [
         "mix",
@@ -229,6 +240,7 @@
         "Aventura",
         "Ciencia ficción"
       ],
+      "posterPath": "/posters/329.jpg",
       "emoji": "🦖 🏝️ 🚙",
       "themes": [
         "mix",
@@ -249,6 +261,7 @@
         "Familia",
         "Drama"
       ],
+      "posterPath": "/posters/8587.jpg",
       "emoji": "🦁 👑 🌅",
       "themes": [
         "mix",
@@ -272,6 +285,7 @@
         "Animación",
         "Aventura"
       ],
+      "posterPath": "/posters/862.jpg",
       "emoji": "🤠 🚀 🧸",
       "themes": [
         "mix",
@@ -293,6 +307,7 @@
         "Drama",
         "Romance"
       ],
+      "posterPath": "/posters/597.jpg",
       "emoji": "🚢 🧊 ❤️",
       "themes": [
         "mix",
@@ -312,6 +327,7 @@
         "Fantasía",
         "Familia"
       ],
+      "posterPath": "/posters/8844.jpg",
       "emoji": "🎲 🌴 🦁",
       "themes": [
         "mix",
@@ -332,6 +348,7 @@
         "Familia",
         "Fantasía"
       ],
+      "posterPath": "/posters/10830.jpg",
       "emoji": "📚 👧 ✨",
       "themes": [
         "mix",
@@ -353,6 +370,7 @@
         "Comedia",
         "Ciencia ficción"
       ],
+      "posterPath": "/posters/607.jpg",
       "emoji": "🕶️ 👽 ⚡",
       "themes": [
         "mix",
@@ -371,6 +389,7 @@
         "Comedia",
         "Drama"
       ],
+      "posterPath": "/posters/37165.jpg",
       "emoji": "📺 🌎 ⛵",
       "themes": [
         "mix",
@@ -391,6 +410,7 @@
         "Crimen",
         "Romance"
       ],
+      "posterPath": "/posters/854.jpg",
       "emoji": "🎭 🟢 💃",
       "themes": [
         "mix",
@@ -410,6 +430,7 @@
         "Drama",
         "Familia"
       ],
+      "posterPath": "/posters/788.jpg",
       "emoji": "👵 🎭 👨‍👧‍👦",
       "themes": [
         "mix",
@@ -430,6 +451,7 @@
         "Drama",
         "Romance"
       ],
+      "posterPath": "/posters/162.jpg",
       "emoji": "✂️ 👐 🌹",
       "themes": [
         "mix",
@@ -448,6 +470,7 @@
         "Aventura",
         "Fantasía"
       ],
+      "posterPath": "/posters/671.jpg",
       "emoji": "⚡ 🧙‍♂️ 🏰",
       "themes": [
         "mix",
@@ -470,6 +493,7 @@
         "Aventura",
         "Familia"
       ],
+      "posterPath": "/posters/808.jpg",
       "emoji": "🧌 👸 🐴",
       "themes": [
         "mix",
@@ -491,6 +515,7 @@
         "Familia",
         "Aventura"
       ],
+      "posterPath": "/posters/12.jpg",
       "emoji": "🐠 🌊 🔎",
       "themes": [
         "mix",
@@ -513,6 +538,7 @@
         "Fantasía",
         "Acción"
       ],
+      "posterPath": "/posters/22.jpg",
       "emoji": "🏴‍☠️ 🛶 💀",
       "themes": [
         "mix",
@@ -535,6 +561,7 @@
         "Animación",
         "Familia"
       ],
+      "posterPath": "/posters/9806.jpg",
       "emoji": "🦸‍♀️ 👨‍👩‍👧‍👦 💥",
       "themes": [
         "mix",
@@ -558,6 +585,7 @@
         "Familia",
         "Fantasía"
       ],
+      "posterPath": "/posters/118.jpg",
       "emoji": "🍫 🏭 🎩",
       "themes": [
         "mix",
@@ -579,6 +607,7 @@
         "Familia",
         "Fantasía"
       ],
+      "posterPath": "/posters/2062.jpg",
       "emoji": "🐀 👨‍🍳 🇫🇷",
       "themes": [
         "mix",
@@ -601,6 +630,7 @@
         "Familia",
         "Ciencia ficción"
       ],
+      "posterPath": "/posters/10681.jpg",
       "emoji": "🤖 🌱 🚀",
       "themes": [
         "mix",
@@ -624,6 +654,7 @@
         "Familia",
         "Aventura"
       ],
+      "posterPath": "/posters/14160.jpg",
       "emoji": "🏠 🎈 🦜",
       "themes": [
         "mix",
@@ -647,6 +678,7 @@
         "Familia",
         "Fantasía"
       ],
+      "posterPath": "/posters/585.jpg",
       "emoji": "👹 🚪 😱",
       "themes": [
         "mix",
@@ -670,6 +702,7 @@
         "Familia",
         "Aventura"
       ],
+      "posterPath": "/posters/425.jpg",
       "emoji": "🦣 🦥 🧊",
       "themes": [
         "mix",
@@ -691,6 +724,7 @@
         "Familia",
         "Comedia"
       ],
+      "posterPath": "/posters/1593.jpg",
       "emoji": "🏛️ 🌙 🦖",
       "themes": [
         "mix",
@@ -712,6 +746,7 @@
         "Aventura",
         "Fantasía"
       ],
+      "posterPath": "/posters/109445.jpg",
       "emoji": "❄️ 👭 ⛄",
       "themes": [
         "mix",
@@ -735,6 +770,7 @@
         "Música",
         "Aventura"
       ],
+      "posterPath": "/posters/354912.jpg",
       "emoji": "🎸 💀 🌼",
       "themes": [
         "mix",
@@ -759,6 +795,7 @@
         "Drama",
         "Comedia"
       ],
+      "posterPath": "/posters/150540.jpg",
       "emoji": "🧠 😊 😢",
       "themes": [
         "mix",
@@ -782,6 +819,7 @@
         "Familia",
         "Animación"
       ],
+      "posterPath": "/posters/277834.jpg",
       "emoji": "🌊 ⛵ 🌺",
       "themes": [
         "mix",
@@ -804,6 +842,7 @@
         "Aventura",
         "Familia"
       ],
+      "posterPath": "/posters/116149.jpg",
       "emoji": "🐻 🧥 🍊",
       "themes": [
         "mix",
@@ -825,6 +864,7 @@
         "Familia",
         "Comedia"
       ],
+      "posterPath": "/posters/269149.jpg",
       "emoji": "🐰 🦊 🏙️",
       "themes": [
         "mix",
@@ -848,6 +888,7 @@
         "Animación",
         "Familia"
       ],
+      "posterPath": "/posters/10191.jpg",
       "emoji": "🐉 🛡️ 🦿",
       "themes": [
         "mix",
@@ -871,6 +912,7 @@
         "Ciencia ficción",
         "Familia"
       ],
+      "posterPath": "/posters/20352.jpg",
       "emoji": "🦹‍♂️ 🍌 👧",
       "themes": [
         "mix",
@@ -890,6 +932,7 @@
       "genres": [
         "Drama"
       ],
+      "posterPath": "/posters/316029.jpg",
       "emoji": "🎪 🎩 🎶",
       "themes": [
         "mix",
@@ -910,6 +953,7 @@
         "Comedia",
         "Fantasía"
       ],
+      "posterPath": "/posters/353486.jpg",
       "emoji": "🎮 🌴 🦏",
       "themes": [
         "mix",
@@ -931,6 +975,7 @@
         "Aventura",
         "Ciencia ficción"
       ],
+      "posterPath": "/posters/324857.jpg",
       "emoji": "🕷️ 🕸️ 🌆",
       "themes": [
         "mix",
@@ -951,6 +996,7 @@
         "Familia",
         "Drama"
       ],
+      "posterPath": "/posters/406997.jpg",
       "emoji": "🚀 👦 ❤️",
       "themes": [
         "mix",
@@ -972,6 +1018,7 @@
         "Familia",
         "Fantasía"
       ],
+      "posterPath": "/posters/568124.jpg",
       "emoji": "🏠 ✨ 🦋",
       "themes": [
         "mix",
@@ -996,6 +1043,7 @@
         "Música",
         "Fantasía"
       ],
+      "posterPath": "/posters/508442.jpg",
       "emoji": "🎹 👻 🌌",
       "themes": [
         "mix",
@@ -1020,6 +1068,7 @@
         "Drama",
         "Comedia"
       ],
+      "posterPath": "/posters/508943.jpg",
       "emoji": "🐟 🛵 🇮🇹",
       "themes": [
         "mix",
@@ -1043,6 +1092,7 @@
         "Comedia",
         "Fantasía"
       ],
+      "posterPath": "/posters/508947.jpg",
       "emoji": "🐼 🔴 🎤",
       "themes": [
         "mix",
@@ -1067,6 +1117,7 @@
         "Fantasía",
         "Animación"
       ],
+      "posterPath": "/posters/502356.jpg",
       "emoji": "🍄 👨‍🔧 🏎️",
       "themes": [
         "mix",
@@ -1088,6 +1139,7 @@
         "Familia",
         "Fantasía"
       ],
+      "posterPath": "/posters/787699.jpg",
       "emoji": "🍫 🎩 ✨",
       "themes": [
         "mix",
@@ -1109,6 +1161,7 @@
         "Comedia",
         "Familia"
       ],
+      "posterPath": "/posters/1022789.jpg",
       "emoji": "🧠 😰 🏒",
       "themes": [
         "mix",
@@ -1132,6 +1185,7 @@
         "Ciencia ficción",
         "Aventura"
       ],
+      "posterPath": "/posters/1184918.jpg",
       "emoji": "🤖 🦊 🌲",
       "themes": [
         "mix",
