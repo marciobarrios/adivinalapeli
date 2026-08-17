@@ -14,6 +14,9 @@ test("configura y completa una partida por equipos", async ({ page }) => {
   await page.goto("/");
 
   await expect(page.getByRole("heading", { name: "La peli está en tus manos." })).toBeVisible();
+  await expect(page.getByText("1. Crea los equipos", { exact: true })).toBeVisible();
+  await expect(page.getByRole("button", { name: "Por equipos" })).toHaveCount(0);
+  await expect(page.getByRole("button", { name: "Personas" })).toHaveCount(0);
   await page.getByRole("button", { name: /^Disney y Pixar/ }).click();
   await page
     .getByRole("group", { name: "Rondas" })
@@ -41,6 +44,16 @@ test("configura y completa una partida por equipos", async ({ page }) => {
 
   await expect(page.getByRole("heading", { name: "Equipo Claqueta gana" })).toBeVisible();
   await expect(page.getByRole("button", { name: "Revancha" })).toBeVisible();
+});
+
+test("admite nombres de personas que juegan individualmente", async ({ page }) => {
+  await page.goto("/");
+
+  await page.getByLabel("Equipo 1").fill("Ana");
+  await page.getByLabel("Equipo 2").fill("Luis");
+  await page.getByRole("button", { name: "Empezar partida" }).click();
+
+  await expect(page.getByRole("heading", { name: "Pasa el móvil a Ana" })).toBeVisible();
 });
 
 test("permite empezar una partida de comedias", async ({ page }) => {
