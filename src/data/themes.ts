@@ -55,4 +55,10 @@ export const THEMES: GameTheme[] = [
     description: "Para convertir animales, robots y emociones en gestos.",
     emoji: "🖍️",
   },
+  {
+    id: "comedy",
+    name: "Comedias",
+    description: "Enredos, personajes disparatados y risas de todas las décadas.",
+    emoji: "😂",
+  },
 ];

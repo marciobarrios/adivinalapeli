@@ -13,11 +13,11 @@ el service worker guarda toda la aplicación.
 5. Cada acierto suma un punto. Se puede pasar una tarjeta sin penalización.
 
 Incluye las temáticas `Surtido de cine`, `En familia`, `Disney y Pixar`, décadas de los 80 a los
-2020 y `Animación`.
+2020, `Animación` y `Comedias`.
 
 ## Qué incluye
 
-- 54 películas curadas con portada local, título en `es-ES`, año, géneros y pista emoji de respaldo.
+- 80 películas curadas con portada local, título en `es-ES`, año, géneros y pista emoji de respaldo.
 - Modo equipos o personas, de 2 a 4 participantes.
 - Marcador, cambio automático de ronda, resumen de turno y revancha.
 - Recuperación de la partida desde `localStorage` si se recarga la página.
@@ -62,7 +62,7 @@ El flujo está optimizado para evitar peticiones innecesarias:
 
 - `src/data/movie-seeds.ts` mantiene IDs, títulos de respaldo, categorías y emojis.
 - `pnpm catalog:ensure` reutiliza `src/data/movies.generated.json` y las portadas locales mientras estén vigentes.
-- `pnpm catalog:refresh` solicita los 54 registros con concurrencia limitada y guarda sus portadas `w342` en `public/posters`.
+- `pnpm catalog:refresh` solicita los 80 registros con concurrencia limitada y guarda sus portadas `w342` en `public/posters`.
 - Si una portada no existe o no puede cargarse, la tarjeta muestra automáticamente la pista emoji.
 - Si TMDB no está disponible, se conserva la copia local; sin copia previa se usa el título y el emoji versionados.
 - El catálogo propone renovarse cada 150 días, por debajo del máximo de caché indicado por TMDB.
