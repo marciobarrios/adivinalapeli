@@ -1,6 +1,6 @@
 "use client";
 
-import { ArrowRight, Check, Plus, Sparkles, Trash2, Users, UserRound } from "lucide-react";
+import { ArrowRight, Check, Plus, Sparkles, Trash2 } from "lucide-react";
 import { useMemo, useState } from "react";
 
 import { AppHeader } from "@/components/game/app-header";
@@ -11,14 +11,11 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { THEMES } from "@/data/themes";
-import type { GameMode, GameSettings } from "@/lib/game";
+import type { GameSettings } from "@/lib/game";
 import type { Movie, ThemeId } from "@/lib/types";
 import { cn } from "@/lib/utils";
 
-const DEFAULT_NAMES: Record<GameMode, string[]> = {
-  teams: ["Equipo Claqueta", "Equipo Palomitas"],
-  people: ["Persona 1", "Persona 2"],
-};
+const DEFAULT_NAMES = ["Equipo Claqueta", "Equipo Palomitas"];
 
 interface SetupScreenProps {
   movies: Movie[];
@@ -58,8 +55,7 @@ function SegmentedChoice<T extends string | number>({
 }
 
 export function SetupScreen({ movies, onStart }: SetupScreenProps) {
-  const [mode, setMode] = useState<GameMode>("teams");
-  const [participantNames, setParticipantNames] = useState(DEFAULT_NAMES.teams);
+  const [participantNames, setParticipantNames] = useState(DEFAULT_NAMES);
   const [themeId, setThemeId] = useState<ThemeId>("mix");
   const [rounds, setRounds] = useState(3);
   const [secondsPerTurn, setSecondsPerTurn] = useState(60);
@@ -75,20 +71,6 @@ export function SetupScreen({ movies, onStart }: SetupScreenProps) {
     [movies],
   );
 
-  function changeMode(nextMode: GameMode) {
-    setMode(nextMode);
-    setParticipantNames((current) =>
-      current.map((name, index) => {
-        const previousDefault =
-          DEFAULT_NAMES[mode][index] ?? `${mode === "teams" ? "Equipo" : "Persona"} ${index + 1}`;
-        const nextDefault =
-          DEFAULT_NAMES[nextMode][index] ??
-          `${nextMode === "teams" ? "Equipo" : "Persona"} ${index + 1}`;
-        return name === previousDefault ? nextDefault : name;
-      }),
-    );
-  }
-
   function updateName(index: number, value: string) {
     setParticipantNames((current) =>
       current.map((name, itemIndex) => (itemIndex === index ? value : name)),
@@ -96,10 +78,7 @@ export function SetupScreen({ movies, onStart }: SetupScreenProps) {
   }
 
   function addParticipant() {
-    setParticipantNames((current) => [
-      ...current,
-      `${mode === "teams" ? "Equipo" : "Persona"} ${current.length + 1}`,
-    ]);
+    setParticipantNames((current) => [...current, `Equipo ${current.length + 1}`]);
   }
 
   function removeParticipant(index: number) {
@@ -107,10 +86,8 @@ export function SetupScreen({ movies, onStart }: SetupScreenProps) {
   }
 
   function submitGame() {
-    const cleanNames = participantNames.map(
-      (name, index) => name.trim() || `${mode === "teams" ? "Equipo" : "Persona"} ${index + 1}`,
-    );
-    onStart({ mode, participantNames: cleanNames, themeId, rounds, secondsPerTurn });
+    const cleanNames = participantNames.map((name, index) => name.trim() || `Equipo ${index + 1}`);
+    onStart({ participantNames: cleanNames, themeId, rounds, secondsPerTurn });
   }
 
   return (
@@ -125,7 +102,7 @@ export function SetupScreen({ movies, onStart }: SetupScreenProps) {
           <div>
             <Badge className="mb-5 h-7 gap-1.5 bg-secondary text-secondary-foreground">
               <Sparkles aria-hidden="true" />
-              De 2 a 4 equipos o personas
+              De 2 a 4 equipos
             </Badge>
             <h1 className="max-w-3xl font-heading text-5xl leading-[0.95] font-black tracking-[-0.055em] text-balance sm:text-7xl">
               La peli está en tus manos.
@@ -138,7 +115,7 @@ export function SetupScreen({ movies, onStart }: SetupScreenProps) {
           <ol className="grid gap-3 text-sm sm:grid-cols-3 lg:grid-cols-1">
             {[
               ["1", "Una temática para toda la partida"],
-              ["2", "Un turno por participante y ronda"],
+              ["2", "Un turno por equipo y ronda"],
               ["3", "Cada acierto suma un punto"],
             ].map(([number, text]) => (
               <li
@@ -157,38 +134,18 @@ export function SetupScreen({ movies, onStart }: SetupScreenProps) {
         <div className="grid gap-6 pt-7 lg:grid-cols-[0.78fr_1.22fr] lg:grid-rows-[auto_auto] lg:items-start">
           <Card className="order-1 border border-foreground/10 bg-card shadow-[0_14px_40px_-30px_var(--foreground)] lg:col-start-1 lg:row-start-1">
             <CardHeader>
-              <CardTitle className="text-xl font-black">1. ¿Quién juega?</CardTitle>
+              <CardTitle className="text-xl font-black">1. Crea los equipos</CardTitle>
             </CardHeader>
             <CardContent className="grid gap-5">
-              <div className="grid grid-cols-2 gap-2 rounded-xl bg-muted p-1.5">
-                <Button
-                  type="button"
-                  variant={mode === "teams" ? "default" : "ghost"}
-                  className="h-11"
-                  aria-pressed={mode === "teams"}
-                  onClick={() => changeMode("teams")}
-                >
-                  <Users aria-hidden="true" />
-                  Por equipos
-                </Button>
-                <Button
-                  type="button"
-                  variant={mode === "people" ? "default" : "ghost"}
-                  className="h-11"
-                  aria-pressed={mode === "people"}
-                  onClick={() => changeMode("people")}
-                >
-                  <UserRound aria-hidden="true" />
-                  Personas
-                </Button>
-              </div>
+              <p className="text-sm leading-6 text-muted-foreground">
+                Escribe un nombre para cada equipo. Si jugáis individualmente, cada persona cuenta
+                como un equipo.
+              </p>
 
               <div className="grid gap-3">
                 {participantNames.map((name, index) => (
                   <div key={index} className="grid gap-2">
-                    <Label htmlFor={`participant-${index}`}>
-                      {mode === "teams" ? "Equipo" : "Persona"} {index + 1}
-                    </Label>
+                    <Label htmlFor={`participant-${index}`}>Equipo {index + 1}</Label>
                     <div className="flex gap-2">
                       <Input
                         id={`participant-${index}`}
@@ -222,7 +179,7 @@ export function SetupScreen({ movies, onStart }: SetupScreenProps) {
                   onClick={addParticipant}
                 >
                   <Plus aria-hidden="true" />
-                  Añadir {mode === "teams" ? "equipo" : "persona"}
+                  Añadir equipo
                 </Button>
               ) : null}
             </CardContent>
@@ -276,8 +233,7 @@ export function SetupScreen({ movies, onStart }: SetupScreenProps) {
                 <div>
                   <p className="font-heading text-lg font-black">Todo preparado</p>
                   <p className="mt-1 text-sm leading-5 text-secondary-foreground/75">
-                    {rounds} rondas · {secondsPerTurn} segundos · {participantNames.length}{" "}
-                    participantes
+                    {rounds} rondas · {secondsPerTurn} segundos · {participantNames.length} equipos
                   </p>
                 </div>
                 <Button

@@ -6,7 +6,8 @@ el service worker guarda toda la aplicación.
 
 ## Cómo se juega
 
-1. Elegid si jugáis por equipos o individualmente y poned los nombres.
+1. Cread de 2 a 4 equipos y poned los nombres. Si jugáis individualmente, cada persona cuenta como
+   un equipo.
 2. Configurad 1, 3 o 5 rondas y turnos de 30, 60 o 90 segundos.
 3. Escoged una temática que se mantendrá durante toda la partida.
 4. En cada turno, una persona mira la pantalla e interpreta la película solo con gestos.
@@ -18,7 +19,7 @@ Incluye las temáticas `Surtido de cine`, `En familia`, `Disney y Pixar`, décad
 ## Qué incluye
 
 - 80 películas curadas con portada local, título en `es-ES`, año, géneros y pista emoji de respaldo.
-- Modo equipos o personas, de 2 a 4 participantes.
+- De 2 a 4 equipos, también para personas que juegan individualmente.
 - Marcador, cambio automático de ronda, resumen de turno y revancha.
 - Recuperación de la partida desde `localStorage` si se recarga la página.
 - PWA offline-first con exportación estática y precache de todos los recursos.

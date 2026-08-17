@@ -1,10 +1,8 @@
 import type { Movie, ThemeId } from "@/lib/types";
 
-export type GameMode = "teams" | "people";
 export type GamePhase = "handoff" | "playing" | "summary" | "finished";
 
 export interface GameSettings {
-  mode: GameMode;
   participantNames: string[];
   themeId: ThemeId;
   rounds: number;
